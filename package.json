@@ -1,0 +1,32 @@
+{
+  "name": "podcast-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimassspb/podcast-app.git"
+  },
+  "author": "Dmitrii Isakov <dimass82@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimassspb/podcast-app/issues"
+  },
+  "homepage": "https://github.com/dimassspb/podcast-app#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
